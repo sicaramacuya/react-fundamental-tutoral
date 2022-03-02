@@ -7,10 +7,24 @@
     flex-direction: column;
     padding: 1em;
     margin-bottom: 2em;
-    background-color: rgb(192, 45, 26);
-    color: #fff;
+    /* background-color: rgb(192, 45, 26); */
+    color: rgb(0, 0, 0);
   }
 
 .Title-Subtitle {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(0, 0, 0, 0.75);
+  margin-bottom: 1em;
+}
+
+.Title a {
+  display: inline;
+  padding: 05em 1em;
+  color: rgba(99, 97, 97, 0.835);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Title .nav-link-active {
+  color: rgb(0, 0, 0);
+  border-bottom: 2px solid;
 }
